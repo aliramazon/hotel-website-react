@@ -9,11 +9,10 @@
 
 html {
   // this defines what 1rem is
+  box-sizing: border-box;
   font-size: 62.5%;
 }
 
 body {
-  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  color: red;
 }
