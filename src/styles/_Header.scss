@@ -1,3 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    font-size: 1.4rem;
+}
+
 // Logo
 .logo {
     height: 3.25rem;
@@ -5,15 +13,59 @@
 
 // Search
 .search {
+    flex: 0 0 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     &__input {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        padding: 0.7rem 2rem;
+        margin-right: -3.25rem;
+        background-color: $colorGreyLight-2;
+        border: none;
+        border-radius: 10rem;
+        width: 90%;
+        transition: all 0.7s;
+
+        &:focus {
+            outline: none;
+            width: 100%;
+            background-color: $colorGreyLight-3;
+        }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: $colorGreyLight-4;
+        }
+    }
+
+    &__input:focus + &__button {
+        background-color: $colorGreyLight-3;
     }
 
     &__button {
+        border: none;
+        background-color: $colorGreyLight-2;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(0.2rem);
+        }
     }
 }
 
 // UserNavigation
 .user-nav {
+    display: flex;
+    background-color: red;
+
     &__icon-box {
     }
 
