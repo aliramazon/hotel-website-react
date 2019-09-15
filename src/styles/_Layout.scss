@@ -3,7 +3,7 @@
     margin: 8rem auto;
     background-color: $colorGreyLight-1;
     box-shadow: $shadowDark;
-    min-height: 70rem;
+    min-height: 50rem;
 }
 
 .content {
@@ -19,9 +19,13 @@
 .sidebar {
     background-color: $colorGreyDark-1;
     flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: $colorGreyLight-1;
+    height: 80rem;
     flex: 1;
 }
