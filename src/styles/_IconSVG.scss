@@ -19,3 +19,14 @@
     margin-right: 2rem;
     fill: currentColor;
 }
+
+.overview__location-icon,
+.overview__stars-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: $colorPrimary;
+}
+
+.overview__location-icon {
+    margin-right: 0.5rem;
+}

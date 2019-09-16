@@ -1,7 +1,12 @@
 import React from 'react';
+import HotelViewHeader from './HotelViewHeader';
 
 const HotelView = () => {
-    return <main className="hotel-view">Hotel View</main>;
+    return (
+        <main className="hotel-view">
+            <HotelViewHeader />
+        </main>
+    );
 };
 
 export default HotelView;
