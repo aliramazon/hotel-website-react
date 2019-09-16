@@ -13,7 +13,7 @@
 .header {
     height: 7rem;
     background-color: $colorWhite;
-    border-bottom: 0.1rem solid $colorGreyLight-2;
+    border-bottom: $line;
 }
 
 .sidebar {
@@ -25,7 +25,6 @@
 }
 
 .hotel-view {
-    background-color: $colorGreyLight-1;
-    height: 80rem;
+    background-color: $colorWhite;
     flex: 1;
 }
