@@ -3,7 +3,7 @@ import hotel1 from '../images/hotel-1.jpg';
 import hotel2 from '../images/hotel-2.jpg';
 import hotel3 from '../images/hotel-3.jpg';
 
-const HotelViewGallery = () => {
+const HotelGallery = () => {
     return (
         <div className="gallery">
             <figure className="gallery__item">
@@ -19,4 +19,4 @@ const HotelViewGallery = () => {
     );
 };
 
-export default HotelViewGallery;
+export default HotelGallery;

@@ -1,10 +1,14 @@
 import React from 'react';
-import HotelViewHeader from './HotelViewHeader';
+import HotelGallery from './HotelGallery';
+import HotelOverview from './HotelOverview.js';
+import HotelDetails from './HotelDetails';
 
 const HotelView = () => {
     return (
         <main className="hotel-view">
-            <HotelViewHeader />
+            <HotelGallery />
+            <HotelOverview />
+            <HotelDetails />
         </main>
     );
 };

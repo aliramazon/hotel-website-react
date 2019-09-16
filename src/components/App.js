@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div className="container">
             <Header />
-            <div class="content">
+            <div className="content">
                 <Sidebar />
                 <HotelView />
             </div>
