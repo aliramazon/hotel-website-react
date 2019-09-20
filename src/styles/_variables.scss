@@ -13,3 +13,9 @@ $colorWhite: #fff;
 $shadowDark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 $shadowLight: 0 2rem 5rem rgba(0, 0, 0, 0.06);
 $line: 1px solid $colorGreyLight-2;
+
+$bp-largest: 75em; // 120rem
+$bp-large: 68.75em; //110rem;
+$bp-medium: 56.25em; //90rem;
+$bp-small: 37.5em; // 60rem;
+$bp-smallest: 31.5em; // 50rem
