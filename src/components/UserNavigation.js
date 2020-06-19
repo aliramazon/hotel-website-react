@@ -7,7 +7,7 @@ const UserNavigation = () => {
         <nav className="user-nav">
             <div className="user-nav__icon-box">
                 <IconSVG className="user-nav__icon" iconName="icon-bookmark" />
-                <span className="user-nav__notification">7</span>
+                <span className="user-nav__notification">8</span>
             </div>
             <div className="user-nav__icon-box">
                 <IconSVG className="user-nav__icon" iconName="icon-chat" />
